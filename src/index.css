@@ -1,2 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@font-face {
+	font-family: "JosefinSans";
+
+	src: local("JosefinSansVari"),
+		url("./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
