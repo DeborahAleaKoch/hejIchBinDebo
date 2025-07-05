@@ -1,3 +1,9 @@
 export const AboutMe = () => {
-	return <div className="">Hej ich bin Debo!</div>;
+	return (
+		<>
+			<div className=''>
+				<p>hier ist was über mich</p>
+			</div>
+		</>
+	);
 };
