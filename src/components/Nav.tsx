@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export const Nav = () => {
 	return (
-		<div className='flex justify-between gap-5 text-slate-700'>
+		<div className='flex justify-between gap-5 text-slate-700 text-lg'>
 			<a
 				href={`aboutme`}
 				className=' hover:text-orange-300 hover:delay-50 hover:ease-linear'
@@ -10,16 +10,16 @@ export const Nav = () => {
 				about me
 			</a>
 			<Link
-				to={``}
+				to={`projects`}
 				className=' hover:text-orange-300 hover:delay-50 hover:ease-linear'
 			>
 				projects
 			</Link>
 			<Link
-				to={``}
+				to={`skills`}
 				className=' hover:text-orange-300 hover:delay-50 hover:ease-linear'
 			>
-				skill
+				skills
 			</Link>
 			<Link
 				to={`quiz`}
