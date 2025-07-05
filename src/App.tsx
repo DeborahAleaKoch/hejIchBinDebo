@@ -8,13 +8,17 @@ import {
 import { Layout } from "./layout/Layout";
 import { AboutMe } from "./pages/AboutMe";
 import { RouterProvider } from "react-router";
+import { Home } from "./pages/Home";
+import { Quiz } from "./pages/Quiz";
 
 function App() {
 	const router = createBrowserRouter(
 		createRoutesFromElements(
 			<Route path='/' element={<Layout />}>
 				{/* hier kommen dann die Routen hin */}
-				<Route index element={<AboutMe />} />
+				<Route index element={<Home />} />
+				<Route path='aboutme' element={<AboutMe />} />
+				<Route path='quiz' element={<Quiz />} />
 			</Route>
 		)
 	);
