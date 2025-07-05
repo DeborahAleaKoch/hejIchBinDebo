@@ -10,6 +10,8 @@ import { AboutMe } from "./pages/AboutMe";
 import { RouterProvider } from "react-router";
 import { Home } from "./pages/Home";
 import { Quiz } from "./pages/Quiz";
+import { Skills } from "./pages/Skills";
+import { Projects } from "./pages/Projects";
 
 function App() {
 	const router = createBrowserRouter(
@@ -19,6 +21,8 @@ function App() {
 				<Route index element={<Home />} />
 				<Route path='aboutme' element={<AboutMe />} />
 				<Route path='quiz' element={<Quiz />} />
+				<Route path='skills' element={<Skills />} />
+				<Route path='projects' element={<Projects />} />
 			</Route>
 		)
 	);
