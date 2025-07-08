@@ -46,4 +46,9 @@ export const wantToLearn: Tech[] = [
 	},
 	{ text: "Podman", logo: "../public/logos/Podman.svg" },
 	{ text: "React Native", logo: "../public/logos/react-native-1.svg" },
+	{
+		text: "Handstand",
+		logo: "../public/logos/reshot-icon-handstand-NAKFM238GS.svg",
+		tooltip: "Yoga",
+	},
 ];
