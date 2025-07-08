@@ -11,7 +11,7 @@ export const AboutMe = () => {
 						alt='Bild von mir.'
 						className=' rounded-full  bg-gray-50 '
 					/>
-					<article className='text-lg w-2/3 text-justify '>
+					<article className='text-xl w-2/3 text-justify '>
 						<div className=''>
 							Ich heiße Deborah Alea Koch und bin 1990 in Lünen geboren und
 							aufgewachsen. Von den meisten werde ich Debo genannt und bin damit

@@ -9,7 +9,7 @@ export const Home = () => {
 		<div className='px-12 mx-36'>
 			<Headline title='Hej! Ich bin Debo!' />
 			<section className='flex justify-around py-8 gap-10'>
-				<article className=' rounded w-1/2 text-lg font-light text-justify '>
+				<article className=' rounded w-1/2 text-xl font-light text-justify '>
 					<p className=''>
 						Ich bin{" "}
 						<span className='italic text-xl'>Frondend Web Developerin. </span>
@@ -17,8 +17,25 @@ export const Home = () => {
 					<br />
 					<div className=''>
 						Seit 2024 befinde ich mich in meiner beruflichen Umorientierung. Im
-						Juni 2024 absolvierte ich einen vier wöchigen JavaScript Kurs und im Mai 2025
-						beendete ich ein Bootcamp - mit den Schwerpunkten{" "}
+						Juni 2024 absolvierte ich einen vier wöchigen{" "}
+						<a
+							href='../../public/document/cimdata-Zertifikat.pdf'
+							className='text-(--color-primary) tooltip'
+							data-tip='Das Zertifikat kann hier angesehen werden. '
+							target='_blanked'
+						>
+							JavaScript Kurs
+						</a>{" "}
+						und im Mai 2025 beendete ich ein{" "}
+						<a
+							href='../../public/document/Deborah-Alea-Koch - Zertifikat.pdf'
+							className='text-(--color-primary) tooltip'
+							data-tip='Das Zertifikat kann hier angesehen werden.'
+							target='_blanked'
+						>
+							Bootcamp
+						</a>{" "}
+						- mit den Schwerpunkten{" "}
 						{/* <span className='relative inline-block before:absolute before:-inset-0.5 before:block before:-skew-y-3 before:bg-orange-300'>
 							<span className='relative font-medium text-slate-700 dark:text-gray-950'> */}
 						<span className='font-bold italic'>React</span>{" "}
