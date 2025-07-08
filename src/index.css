@@ -9,5 +9,9 @@
 }
 :root {
 	--color-primary: oklch(83.7% 0.128 66.29);
-	--color-secondary: #314158;
+	--color-primary-light: oklch(90.1% 0.076 70.697);
+	--color-primary-light-100: oklch(95.4% 0.038 75.164);
+	--color-secondary: oklch(37.173% 0.04497 257.445);
+	--color-secondary-light-200: oklch(92.9% 0.013 255.508);
+	--color-secondary-light: oklch(70.4% 0.04 256.788);
 }
