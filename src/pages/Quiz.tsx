@@ -9,7 +9,7 @@ export const Quiz = () => {
 				<Headline title=' Yay, Quiz Time!' />
 
 				{quizQuestions.map((item) => (
-					<QuizBox item={item} />
+					<QuizBox item={item} key={item.question} />
 				))}
 			</section>
 		</>

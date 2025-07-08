@@ -34,6 +34,7 @@ export const QuizBox: React.FC<Props> = ({ item }) => {
 							onClick={() => {
 								setAnswered(choice);
 							}}
+							key={choice.text}
 						>
 							{choice.text}
 						</button>
