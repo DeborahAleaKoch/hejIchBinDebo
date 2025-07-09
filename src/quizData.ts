@@ -45,5 +45,13 @@ export const quizQuestions: QuizItem[] = [
 			{ text: "Kürbis", correct: false },
 		],
 	},
-	// { question: "", choices: ["", ""], answer: "" },
+	{
+		question: "Welche:n Autor:in lese ich nicht",
+		choices: [
+			{ text: "John Irving", correct: false },
+			{ text: "Haruki Murakami", correct: false },
+			{ text: "J.K. Rowling", correct: true },
+			{ text: "T.C. Boyle", correct: false },
+		],
+	},
 ];
