@@ -4,7 +4,7 @@ import { goodSkills, techStackData, wantToLearn } from "../data";
 
 export const Skills = () => {
 	return (
-		<div className='mx-48 text-center'>
+		<div className='mx-10  md:mx-48 text-center'>
 			<Headline title='Tech Stack' />
 
 			<section className=' text-left '>

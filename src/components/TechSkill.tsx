@@ -9,7 +9,7 @@ interface Props {
 export const TechSkill: React.FC<Props> = ({ skills, text }) => {
 	return (
 		<div className={`border-b-1 border-(--color-primary) `}>
-			<h2 className='text-2xl my-4 italic font-extralight border-(--color-primary) border-b-2 inline-block hover:font-bold hover:text-(--color-primary) hover:border-(--color-secondary) hover:border-b-2'>
+			<h2 className='text-2xl my-5  italic font-extralight border-(--color-primary) border-b-2 inline-block hover:font-bold hover:text-(--color-primary) hover:border-(--color-secondary) hover:border-b-2'>
 				{text}
 			</h2>
 			<div className={`flex flex-wrap gap-14 py-6 `}>

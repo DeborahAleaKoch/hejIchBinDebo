@@ -1,15 +1,18 @@
+import { useEffect } from "react";
 import { Headline } from "../components/Headline";
 
 export const Home = () => {
-	console.log(
-		"Hallo! Schön dass du vorbei schaust. Hier sollte alles aufgeräumt sein, ich habe nämlich mit Besuch gerechnet. Möchtest du einen Kaffee?? ;-)"
-	);
+	useEffect(() => {
+		console.log(
+			"Hallo! Schön dass du vorbei schaust. Hier sollte alles aufgeräumt sein, ich habe nämlich mit Besuch gerechnet. Möchtest du einen Kaffee?? ;-)"
+		);
+	}, []);
 
 	return (
-		<div className='px-12 mx-36'>
+		<div className=' '>
 			<Headline title='Hej! Ich bin Debo!' />
-			<section className='flex justify-around py-8 gap-10'>
-				<article className=' rounded w-1/2 text-xl font-light text-justify '>
+			<section className='flex justify-around py-8 gap-5 flex-wrap mx-10'>
+				<article className='rounded md:w-1/2 text-xl font-light text-justify '>
 					<p className=''>
 						Ich bin{" "}
 						<span className='italic text-xl'>Frondend Web Developerin. </span>
@@ -65,7 +68,7 @@ export const Home = () => {
 				<img
 					src='../../public/img/27640991-925C-43F5-856A-AF16E5AE9F38_1_105_c.jpeg'
 					alt='Bild von Debo.'
-					className='rounded-2xl object-cover w-lg'
+					className='rounded-2xl object-cover md:w-lg '
 				/>
 			</section>
 		</div>

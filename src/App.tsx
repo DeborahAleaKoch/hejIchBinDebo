@@ -12,6 +12,8 @@ import { Home } from "./pages/Home";
 import { Quiz } from "./pages/Quiz";
 import { Skills } from "./pages/Skills";
 import { Projects } from "./pages/Projects";
+import { Impressum } from "./pages/Impressum";
+import { Contact } from "./pages/Contact";
 
 function App() {
 	const router = createBrowserRouter(
@@ -23,6 +25,8 @@ function App() {
 				<Route path='quiz' element={<Quiz />} />
 				<Route path='skills' element={<Skills />} />
 				<Route path='projects' element={<Projects />} />
+				<Route path='impressum' element={<Impressum />} />
+				<Route path='contact' element={<Contact />} />
 			</Route>
 		)
 	);
