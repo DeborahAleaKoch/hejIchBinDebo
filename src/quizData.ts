@@ -46,7 +46,7 @@ export const quizQuestions: QuizItem[] = [
 		],
 	},
 	{
-		question: "Welche:n Autor:in lese ich nicht?",
+		question: "Von welcher:m Autor:in habe ich nichts gelesen?",
 		choices: [
 			{ text: "John Irving", correct: false },
 			{ text: "Haruki Murakami", correct: false },
