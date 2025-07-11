@@ -10,8 +10,8 @@ export const QuizBox: React.FC<Props> = ({ item }) => {
 	const [answered, setAnswered] = useState<Choice | undefined>(undefined);
 
 	return (
-		<div className='flex flex-col items-center gap-3 rounded-xl mx-10 my-5 md:mx-48 md:my-8 py-3 shadow-lg shadow-orange-100 hover: hover:ease-linear text-(--color-secondary) hover:shadow-3xl hover:shadow-orange-200 dark:text-slate-500 bg-amber-50'>
-			<p className='text-xl mb-2.5 underline text-center'>{item.question}</p>
+		<div className='flex flex-col items-center gap-3 rounded-xl mx-10 my-5 md:mx-48 md:my-8 py-3 shadow-lg shadow-orange-100 hover: hover:ease-linear text-(--color-secondary) hover:shadow-3xl hover:shadow-orange-200 dark:text-slate-500 bg-amber-50 font-light'>
+			<p className='text-xl mb-2.5 italic font-semibold text-center'>{item.question}</p>
 			<div className='md:flex md:flex-col'>
 				<p className='flex gap-5 flex-col lg:flex-row'>
 					{item.choices.map((choice) => (
