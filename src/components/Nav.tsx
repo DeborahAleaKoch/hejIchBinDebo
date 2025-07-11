@@ -3,12 +3,12 @@ import { Link } from "react-router";
 export const Nav = () => {
 	return (
 		<div className='flex justify-between gap-5 text-slate-700 text-lg'>
-			<a
-				href={`aboutme`}
+			<Link
+				to={`aboutme`}
 				className=' hover:text-orange-300 hover:delay-50 hover:ease-linear'
 			>
 				about me
-			</a>
+			</Link>
 			<Link
 				to={`projects`}
 				className=' hover:text-orange-300 hover:delay-50 hover:ease-linear'
