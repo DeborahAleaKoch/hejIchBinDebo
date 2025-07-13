@@ -1,21 +1,14 @@
-import { useEffect } from "react";
+
 import { Headline } from "../components/Headline";
 
 export const Home = () => {
-	useEffect(() => {
-		console.log(
-			"Hallo! Schön dass du vorbei schaust. Hier sollte alles aufgeräumt sein, ich habe nämlich mit Besuch gerechnet. Möchtest du einen Kaffee?? ;-)"
-		);
-	}, []);
-
 	return (
-		<div className=' '>
+		<div className=' mx-10 '>
 			<Headline title='Hej! Ich bin Debo!' />
-			<section className='flex justify-around py-8 gap-5 flex-wrap mx-10'>
-				<article className='rounded md:w-1/2 text-xl font-light text-justify '>
-					<p className=''>
-						Ich bin{" "}
-						<span className='italic text-xl'>Frondend Web Developerin. </span>
+			<section className='flex justify-around py-8 lg:gap-3 flex-wrap'>
+				<article className='rounded lg:w-1/2 text-xl/8 font-light text-justify '>
+					<p className='text-2xl'>
+						Ich bin <span className='italic '>Frondend Web Developerin. </span>
 					</p>
 					<br />
 					<div className=''>
