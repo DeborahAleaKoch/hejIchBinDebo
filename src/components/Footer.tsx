@@ -27,7 +27,7 @@ export const Footer = () => {
 						target='_blanket'
 					>
 						<img
-							src='../../public/logos/github-mark.svg'
+							src='/logos/github-mark.svg'
 							alt='GitHub Logo.'
 							className='h-7 w-7 transition delay-150 duration-300 ease-in-out hover:translate hover:scale-140 '
 						/>

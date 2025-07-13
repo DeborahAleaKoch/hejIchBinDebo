@@ -16,7 +16,7 @@ export const Home = () => {
 						Seit 2024 befinde ich mich in meiner beruflichen Umorientierung. Im
 						Juni 2024 absolvierte ich einen vier wöchigen{" "}
 						<a
-							href='../../public/document/cimdata-Zertifikat.pdf'
+							href='/document/cimdata-Zertifikat.pdf'
 							className='text-(--color-primary) tooltip'
 							data-tip='Das Zertifikat kann hier angesehen werden. '
 							target='_blanked'
@@ -25,7 +25,7 @@ export const Home = () => {
 						</a>{" "}
 						und im Mai 2025 beendete ich ein{" "}
 						<a
-							href='../../public/document/Deborah-Alea-Koch - Zertifikat.pdf'
+							href='/document/Deborah-Alea-Koch - Zertifikat.pdf'
 							className='text-(--color-primary) tooltip'
 							data-tip='Das Zertifikat kann hier angesehen werden.'
 							target='_blanked'
