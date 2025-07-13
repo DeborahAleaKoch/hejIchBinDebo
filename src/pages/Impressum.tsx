@@ -1,6 +1,6 @@
-import { ImpressumArticle } from "../components/ImpressumArticle";
+import { ImpressumMap } from "../components/ImpressumMap";
 
-export const Impressum = () => {
+export const Impressum = ({}) => {
 	return (
 		<div className='mx-40 py-5 font-light'>
 			<h1 className='text-4xl mb-8 font-extralight'>Impressum</h1>
@@ -16,6 +16,8 @@ export const Impressum = () => {
 					Koch
 				</p>
 
+				<ImpressumMap />
+				{/*
 				<ImpressumArticle
 					title='Haftung für Inhalte'
 					text='Die Inhalte meiner Seite wurde mit größter Sorgfalt erstellt. Für
@@ -80,7 +82,7 @@ export const Impressum = () => {
 						widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich
 						rechtliche Schritte im Falle der unverlangten Zusendung von
 						Werbeinformationen, etwa durch Spam-Mails, vor.'
-				/>
+				/> */}
 
 				<p>
 					Erstellt mit{" "}

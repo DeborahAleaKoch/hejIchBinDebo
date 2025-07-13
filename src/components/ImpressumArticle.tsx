@@ -1,18 +1,18 @@
+import type { ImpressText } from "../impressum";
+
 export interface Props {
-	title: string;
-	text: string;
+	content: ImpressText;
 }
 
 export const ImpressumArticle: React.FunctionComponent<Props> = ({
-	title,
-	text,
+	content
 }) => {
 	return (
-		<div className="text">
-			<h2 className='font-semibold text-lg text-(--color-secondary-light) mb-5'>
-				{title}
+		<div className='text'>
+			<h2 className='font-semibold text-lg text-(--color-secondary-light) my-5'>
+				{content.headline}
 			</h2>
-			<p>{text}</p>
+			<p>{content.text}</p>
 		</div>
 	);
 };
