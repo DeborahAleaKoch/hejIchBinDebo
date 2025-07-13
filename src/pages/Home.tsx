@@ -1,6 +1,7 @@
 
 import { Headline } from "../components/Headline";
 
+
 export const Home = () => {
 	return (
 		<div className=' mx-10 '>
@@ -59,7 +60,7 @@ export const Home = () => {
 				</article>
 
 				<img
-					src='../../public/img/27640991-925C-43F5-856A-AF16E5AE9F38_1_105_c.jpeg'
+					src='/img/27640991-925C-43F5-856A-AF16E5AE9F38_1_105_c.jpeg'
 					alt='Bild von Debo.'
 					className='rounded-2xl object-cover md:w-lg '
 				/>
