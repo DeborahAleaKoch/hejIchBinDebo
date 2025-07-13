@@ -1,4 +1,5 @@
 import { Headline } from "../components/Headline";
+import debo from "../../public/img/debo.png";
 
 export const AboutMe = () => {
 	return (
@@ -7,7 +8,7 @@ export const AboutMe = () => {
 			<div className='mx-10 my-5 md:mx-48 md:my-5 font-light flex flex-col gap-10 text-xl/9'>
 				<section className='flex justify-between gap-10 items-center flex-wrap md:flex-nowrap'>
 					<img
-						src='../../public/img/debo.png'
+						src={debo}
 						alt='Bild von mir.'
 						className=' rounded-full  bg-gray-50 '
 					/>
