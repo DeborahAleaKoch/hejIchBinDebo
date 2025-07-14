@@ -50,7 +50,7 @@ export const Contact = () => {
 						type='text'
 						name='user_name'
 						id=''
-						className='input input-warning '
+						className='input input-warning dark:bg-(--color-secondary-light-200) dark:text-black'
 						placeholder='name'
 						required
 					/>
@@ -59,7 +59,7 @@ export const Contact = () => {
 						type='email'
 						name='user_email'
 						id=''
-						className='input input-warning'
+						className='input input-warning dark:bg-(--color-secondary-light-200) dark:text-black'
 						placeholder='email'
 						required
 					/>
@@ -67,7 +67,7 @@ export const Contact = () => {
 						type='subject'
 						name='subject'
 						id=''
-						className='input input-warning'
+						className='input input-warning dark:bg-(--color-secondary-light-200) dark:text-black'
 						placeholder='Betreff'
 						required
 					/>
@@ -75,7 +75,7 @@ export const Contact = () => {
 					<textarea
 						name='message'
 						id=''
-						className='input input-warning field-sizing-content pt-2 h-30 text-wrap'
+						className='input input-warning field-sizing-content pt-2 h-30 text-wrap dark:bg-(--color-secondary-light-200) dark:text-black'
 						placeholder='Gib hier eine Nachricht ein.'
 						required
 						rows={10}
