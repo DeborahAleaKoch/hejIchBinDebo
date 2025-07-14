@@ -2,7 +2,7 @@ import { ImpressumMap } from "../components/ImpressumMap";
 
 export const Impressum = ({}) => {
 	return (
-		<div className='mx-40 py-5 font-light'>
+		<div className='md:mx-40 mx-10 text-justify py-5 font-light'>
 			<h1 className='text-4xl mb-8 font-extralight'>Impressum</h1>
 			<section className='flex flex-col gap-7'>
 				<p>Angaben gemäß § 5 DDG</p>

@@ -6,7 +6,7 @@ export const ImpressumMap = () => {
 		<>
 			<div>
 				{impressum.map((entry) => {
-					return <ImpressumArticle content={entry} />;
+					return <ImpressumArticle content={entry} key={entry.headline}/>;
 				})}
 			</div>
 		</>
