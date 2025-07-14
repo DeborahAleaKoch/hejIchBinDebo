@@ -10,7 +10,8 @@ export const Layout = () => {
 	useEffect(() => {
 		if (isFirstRender) {
 			console.log(
-				"Hallo! Schön dass du vorbei schaust. Hier sollte alles aufgeräumt sein, ich habe nämlich mit Besuch gerechnet. Möchtest du einen Kaffee?? ;-)"
+				"%cHallo! Schön dass du vorbei schaust.\nHier sollte alles aufgeräumt sein, ich habe nämlich mit Besuch gerechnet.🤓\nMöchtest du einen Kaffee ☕️?? ",
+				"font-size:1.1rem; font-family: sans-serif; font-weight:lighter; line-height:1.5rem"
 			);
 			setNotFirstRender();
 		}
