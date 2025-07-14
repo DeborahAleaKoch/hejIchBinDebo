@@ -1,6 +1,4 @@
-
 import { Headline } from "../components/Headline";
-
 
 export const Home = () => {
 	return (
@@ -46,7 +44,7 @@ export const Home = () => {
 						</span>{" "} */}
 						. Dort lernte ich unter anderem den Umgang mit supabase. Wobei mich
 						das Anlegen eines Backends ohne{" "}
-						<span className='underline italic'>Backend as a Service</span> mehr
+						<span className=' italic'>Backend as a Service</span> mehr
 						interessiert, weswegen ich auch gerne{" "}
 						<span className='font-bold italic'>PHP</span> lernen möchte.
 					</div>
