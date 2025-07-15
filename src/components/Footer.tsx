@@ -38,7 +38,7 @@ export const Footer = () => {
 						target='_blanket'
 					>
 						<img
-							src='/public/logos/iconmonstr-linkedin-3.svg'
+							src='/logos/iconmonstr-linkedin-3.svg'
 							alt=''
 							className='h-7 w-7 transition delay-150 duration-300 ease-in-out hover:translate hover:scale-140 '
 						/>
