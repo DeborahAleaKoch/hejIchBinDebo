@@ -7,7 +7,7 @@ export const Home = () => {
 			<section className='flex justify-around py-8 lg:gap-3 flex-wrap'>
 				<article className='rounded lg:w-1/2 text-xl/8 font-light text-justify '>
 					<p className='text-2xl'>
-						Ich bin <span className='italic '>Frondend Web Developerin. </span>
+						Ich bin <span className='italic '>Frontend Web Developerin. </span>
 					</p>
 					<br />
 					<div className=''>
@@ -21,7 +21,7 @@ export const Home = () => {
 						>
 							JavaScript Kurs
 						</a>{" "}
-						und im Mai 2025 beendete ich ein{" "}
+						und im Mai 2025 beendete ich ein halbjähriges{" "}
 						<a
 							href='/document/Deborah-Alea-Koch - Zertifikat.pdf'
 							className='text-(--color-primary) tooltip'
@@ -42,11 +42,10 @@ export const Home = () => {
 						<span className='font-bold italic'>TypeScript</span>
 						{/* </span>
 						</span>{" "} */}
-						. Dort lernte ich unter anderem den Umgang mit supabase. Wobei mich
-						das Anlegen eines Backends ohne{" "}
-						<span className=' italic'>Backend as a Service</span> mehr
-						interessiert, weswegen ich auch gerne{" "}
-						<span className='font-bold italic'>PHP</span> lernen möchte.
+						. Um komplexere Webanwendungen zu bauen, verwendeten wir supabase
+						für ein einfaches backend as a service. Aufgrund der intransparenten Einrichtung und der Limitierungen bin ich jedoch neugierig geworden ein richtiges backend zu bauen. Weswegen ich
+						auch gerne <span className='font-bold italic'>PHP</span> lernen
+						möchte.
 					</div>
 					<br />
 					<p></p>
