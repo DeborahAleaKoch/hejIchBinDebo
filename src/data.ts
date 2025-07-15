@@ -7,6 +7,7 @@ export type Tech = {
 export const goodSkills: Tech[] = [
 	{ text: "React.js", logo: "/logos/React-icon.svg.png" },
 	{ text: "Vite", logo: "/logos/vite-svgrepo-com.svg" },
+	{ text: "VSCode", logo: "/logos/cdnlogo.com_vs-code.svg" },
 	{ text: "HTML5", logo: "/logos/html-5-svgrepo-com.svg" },
 	{ text: "SupaBase", logo: "/logos/icons8-supabase.svg" },
 	{
