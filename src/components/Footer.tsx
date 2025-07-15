@@ -32,7 +32,17 @@ export const Footer = () => {
 							className='h-7 w-7 transition delay-150 duration-300 ease-in-out hover:translate hover:scale-140 '
 						/>
 					</a>
-					<a></a>
+					<a
+						href='https://www.linkedin.com/in/deborah-koch'
+						className='linkedIn Logo'
+						target='_blanket'
+					>
+						<img
+							src='/public/logos/iconmonstr-linkedin-3.svg'
+							alt=''
+							className='h-7 w-7 transition delay-150 duration-300 ease-in-out hover:translate hover:scale-140 '
+						/>
+					</a>
 					<a></a>
 				</nav>
 			</footer>
