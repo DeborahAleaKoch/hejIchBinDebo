@@ -32,8 +32,19 @@ export const AboutMe = () => {
 					</li>
 					<li>
 						Der Name Deborah stammt aus dem hebräischen und bedeutet so viel wie
-						fleißige Biene 🐝
+						fleißige Biene 🐝{" "}
+						<span className='font-extralight text-base italic'>
+							sum sum sum
+						</span>
 					</li>
+					<li>Ich mag den Geruch von Zedernholz.</li>
+					<li>
+						Am Tag meiner Geburt war das Lied{" "}
+						<span className='italic '>Pump ab das Bier</span> von{" "}
+						<span className='italic'>Werner Wichtig </span> auf Platz 1 in den
+						deutschen <br /> Single-Charts. 🤷🏻‍♀️
+					</li>
+					<li>Morgens esse ich gerne mal ein Miso-Süppchen. 🍜</li>
 				</div>
 			</div>
 		</>
