@@ -19,7 +19,7 @@ export const Nav = () => {
 				to={`skills`}
 				className=' hover:text-orange-300 hover:delay-50 hover:ease-linear'
 			>
-				skills
+				skills & tech
 			</Link>
 			<Link
 				to={`quiz`}
